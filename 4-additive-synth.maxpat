@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 376.0, 156.0, 961.0, 669.0 ],
+		"rect" : [ 106.0, 130.0, 1612.0, 954.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -702,15 +702,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 2 ],
-					"source" : [ "obj-34", 0 ]
+					"destination" : [ "obj-28", 1 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"source" : [ "obj-4", 0 ]
+					"destination" : [ "obj-28", 2 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
