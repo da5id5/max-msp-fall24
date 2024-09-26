@@ -1,16 +1,16 @@
 {
-	"name" : "improved-keyboard",
+	"name" : "5-improved-keyboard",
 	"version" : 1,
-	"creationdate" : 3810134370,
-	"modificationdate" : 3810214787,
-	"viewrect" : [ 153.0, 175.0, 300.0, 500.0 ],
+	"creationdate" : 3810216496,
+	"modificationdate" : 3810216653,
+	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"improved-keyboard.maxpat" : 			{
+			"5-improved-keyboard.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,6 +19,10 @@
 		}
 ,
 		"media" : 		{
+			"banana.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -27,6 +31,10 @@
 		}
 ,
 		"data" : 		{
+			"banana.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 
@@ -46,6 +54,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 1,
+	"viewmode" : 0,
 	"includepackages" : 0
 }
