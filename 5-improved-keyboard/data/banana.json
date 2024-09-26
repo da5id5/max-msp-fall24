@@ -1,0 +1,33 @@
+{
+	"pattrstorage" : 	{
+		"name" : "banana",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"flonum" : [ 0.5 ],
+					"live.gain~" : [ -6.514435695538033 ],
+					"number[1]" : [ 0 ],
+					"number[2]" : [ 400 ],
+					"number[3]" : [ 2000 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"flonum" : [ 0.75 ],
+					"live.gain~" : [ -7.968503937007839 ],
+					"number[1]" : [ 600 ],
+					"number[2]" : [ 700 ],
+					"number[3]" : [ 1000 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
