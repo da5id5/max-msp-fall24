@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -52,12 +52,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-29",
-					"linecount" : 5,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.6333287358284, 403.033346056938171, 94.0, 74.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 350.6333287358284, 403.033346056938171, 96.0, 60.0 ],
 					"text" : "takes difference between current frame and previous frame"
 				}
 
@@ -69,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 454.533330678939819, 383.93333625793457, 269.59999805688858, 199.999998211860657 ],
+					"patching_rect" : [ 454.533330678939819, 383.93333625793457, 919.0, 677.0 ],
 					"sync" : 1
 				}
 
@@ -483,11 +482,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "jit.absdiff.mxo",
-				"type" : "iLaX"
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
