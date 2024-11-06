@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 485.0, 319.0, 1358.0, 908.0 ],
+		"rect" : [ 159.0, 89.0, 1311.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,97 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-78",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 591.800009429454803, 349.000003755092621, 150.0, 60.0 ],
+					"text" : "slider info set to float\nrange 2.\noutput min 0.\noutput multiplier 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1126.0, 180.0, 125.0, 20.0 ],
+					"text" : "disable audio of video"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 99.0, 252.5, 117.0, 33.0 ],
+					"text" : "load beapconverter\nto default at -5/5v"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 17.0, 258.0, 73.0, 22.0 ],
+					"text" : "loadmess 3."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 299.0, 215.0, 22.0 ],
+					"text" : "pattrforward beapconvertr::selectrange"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 17.0, 216.0, 73.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"client_rect" : [ 1237, 85, 1637, 585 ],
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"storage_rect" : [ 583, 69, 1034, 197 ]
+					}
+,
+					"text" : "pattrstorage",
+					"varname" : "u010003840"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1156.0, 216.0, 34.0, 22.0 ],
+					"text" : "vol 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -59,7 +150,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 129.0, 217.0, 22.0, 140.0 ]
+					"patching_rect" : [ 283.0, 209.0, 22.0, 140.0 ]
 				}
 
 			}
@@ -69,7 +160,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.0, 378.0, 45.0, 45.0 ]
+					"patching_rect" : [ 267.0, 370.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -82,7 +173,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0, 401.0, 50.0, 22.0 ]
+					"patching_rect" : [ 343.0, 390.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -103,7 +194,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 222.0, 300.00000790357592, 108.0, 78.0 ],
+					"patching_rect" : [ 329.0, 289.0, 108.0, 78.0 ],
 					"prototypename" : "pixl",
 					"varname" : "beapconvertr",
 					"viewvisibility" : 1
@@ -139,7 +230,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 222.0, 250.0, 150.0, 30.0 ],
+					"patching_rect" : [ 329.0, 239.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -156,7 +247,8 @@
 								"id" : "u551004919",
 								"loop" : 1,
 								"content_state" : 								{
-									"loop" : 1
+									"loop" : 1,
+									"vol" : 0
 								}
 
 							}
@@ -172,7 +264,7 @@
 					"outlettype" : [ "jit_matrix", "", "dictionary" ],
 					"output_texture" : 0,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1155.0, 250.0, 150.0, 30.0 ]
+					"patching_rect" : [ 1070.0, 252.5, 150.0, 30.0 ]
 				}
 
 			}
@@ -184,7 +276,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1133.0, 142.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1070.0, 178.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -195,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1140.0, 195.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1070.0, 216.0, 63.0, 22.0 ],
 					"text" : "qmetro 30"
 				}
 
@@ -207,7 +299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -1.0, 0.0, 97.0, 22.0 ],
+					"patching_rect" : [ 471.200005114078522, 200.0, 97.0, 22.0 ],
 					"text" : "postion $1 $1 $1"
 				}
 
@@ -219,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 498.000009030103683, 320.000004768371582, 371.0, 22.0 ],
+					"patching_rect" : [ 498.800011277198792, 299.0, 371.0, 22.0 ],
 					"text" : "jit.gl.gridshape minecraft @color 1 1 1 1 @scale 0.1 @position 1 1 1"
 				}
 
@@ -244,20 +336,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 601.600011169910431, 287.200000417232502, 241.0, 22.0 ],
+					"patching_rect" : [ 602.800011277198792, 266.0, 241.0, 22.0 ],
 					"text" : "jit.gl.light minecraft @position 4560 140 150"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-50",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 584.000008702278137, 27.200000405311584, 150.0, 33.0 ],
-					"text" : "ENCAPSULATE shift+command+e"
 				}
 
 			}
@@ -292,7 +372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 103.799999892711639, 13.600000202655792, 150.0, 33.0 ],
+					"patching_rect" : [ 99.0, 21.5, 150.0, 33.0 ],
 					"text" : "RIGHT CLICK ON INLET TO SEE ATTRIBUTE LIST"
 				}
 
@@ -691,7 +771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.799999892711639, 549.300001740455627, 67.0, 74.0 ],
+					"patching_rect" : [ 149.0, 549.300001740455627, 67.0, 74.0 ],
 					"text" : "generate simple geometric shapes as a grid"
 				}
 
@@ -703,7 +783,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 837.800002694129944, 8.0, 229.0, 60.0 ],
+					"patching_rect" : [ 537.000009179115295, 13.600000202655792, 229.0, 60.0 ],
 					"text" : "OpenGL (Open Graphics Library) is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics"
 				}
 
@@ -803,19 +883,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"attr" : "apply",
-					"id" : "obj-24",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1003.999995410442352, 300.00000790357592, 174.666667401790619, 22.0 ]
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -870,13 +937,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1019,6 +1079,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"order" : 0,
 					"source" : [ "obj-51", 0 ]
@@ -1107,6 +1174,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-56::obj-39" : [ "pictctrl[34]", "pictctrl[1]", 0 ],
@@ -1122,7 +1196,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "FroggerHighway.mp4",
 				"bootpath" : "~/Movies/vizzie-fodder",
-				"patcherrelativepath" : "../../../../Movies/vizzie-fodder",
+				"patcherrelativepath" : "../../../Movies/vizzie-fodder",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
