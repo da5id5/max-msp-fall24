@@ -10,7 +10,7 @@ void setup() {
   Serial.begin(9600); //start serial data
   pinMode(ledPin, OUTPUT); // initialize digital pin
   pinMode(buttonPin, INPUT_PULLUP); // enable internal pull-up
-  // pinMode(buttonPin, INPUT); // bad example w/o pull up resistor
+  //pinMode(buttonPin, INPUT); // bad example w/o pull up resistor
 }
 
 void loop() {

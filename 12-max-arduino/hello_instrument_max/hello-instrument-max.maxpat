@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -454,7 +454,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 373.0, 89.0, 22.0 ],
-					"text" : "1 160 321 146"
+					"text" : "1 127 254 400"
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 320.0, 95.0, 22.0 ],
-					"text" : "\"1 160 321 146\""
+					"text" : "\"1 127 254 400\""
 				}
 
 			}
@@ -582,7 +582,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 20.0, 177.0, 50.0, 22.0 ],
-					"text" : "49"
+					"text" : "32"
 				}
 
 			}
@@ -630,7 +630,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.0, 92.0, 39.0, 22.0 ],
-					"text" : "port d"
+					"text" : "port c"
 				}
 
 			}

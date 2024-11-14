@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -57,8 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 209.0, 450.0, 139.0, 33.0 ],
-					"presentation_linecount" : 7,
+					"patching_rect" : [ 209.0, 450.0, 141.0, 33.0 ],
 					"text" : "pot 1 mapped in arduino sketch to 0 to 255"
 				}
 
@@ -401,7 +400,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 175.0, 92.0, 39.0, 22.0 ],
-					"text" : "port d"
+					"text" : "port c"
 				}
 
 			}
