@@ -1,0 +1,21 @@
+<group> amp_veltrack=73 ampeg_release=1
+<region> pitch_keycenter=39 lokey=39 hikey=45 lovel=1  hivel=96  sample=Samples/Eb-p.aiff
+<region> pitch_keycenter=39 lokey=39 hikey=45 lovel=97 hivel=127 sample=Samples/Eb-f.aiff
+<region> pitch_keycenter=46 lokey=46 hikey=52 lovel=1  hivel=96  sample=Samples/Bb-p.aiff
+<region> pitch_keycenter=46 lokey=46 hikey=52 lovel=97 hivel=127 sample=Samples/Bb-f.aiff
+<region> pitch_keycenter=53 lokey=53 hikey=59 lovel=1  hivel=96  sample=Samples/F-p.aiff
+<region> pitch_keycenter=53 lokey=53 hikey=59 lovel=97 hivel=127 sample=Samples/F-f.aiff
+<region> pitch_keycenter=60 lokey=60 hikey=66 lovel=1  hivel=96  sample=Samples/C-p.aiff
+<region> pitch_keycenter=60 lokey=60 hikey=66 lovel=97 hivel=127 sample=Samples/C-f.aiff
+<region> pitch_keycenter=67 lokey=67 hikey=73 lovel=1  hivel=96  sample=Samples/G-p.aiff
+<region> pitch_keycenter=67 lokey=67 hikey=73 lovel=97 hivel=127 sample=Samples/G-f.aiff
+<region> pitch_keycenter=74 lokey=74 hikey=80 lovel=1  hivel=96  sample=Samples/D-p.aiff
+<region> pitch_keycenter=74 lokey=74 hikey=80 lovel=97 hivel=127 sample=Samples/D-f.aiff
+<region> pitch_keycenter=81 lokey=81 hikey=87 lovel=1  hivel=96  sample=Samples/A-p.aiff
+<region> pitch_keycenter=81 lokey=81 hikey=87 lovel=97 hivel=127 sample=Samples/A-f.aiff
+<region> pitch_keycenter=88 lokey=88 hikey=94 lovel=1  hivel=96  sample=Samples/E-p.aiff
+<region> pitch_keycenter=88 lokey=88 hikey=94 lovel=97 hivel=127 sample=Samples/E-f.aiff
+<region> pitch_keycenter=95 lokey=95 hikey=100 lovel=1  hivel=96  sample=Samples/B-p.aiff
+<region> pitch_keycenter=95 lokey=95 hikey=100 lovel=97 hivel=127 sample=Samples/B-f.aiff
+
+<effect> type=fverb reverb_type=small_room reverb_input=50 reverb_dry=100 reverb_wet=75 reverb_size=5
